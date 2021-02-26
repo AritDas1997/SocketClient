@@ -61,7 +61,7 @@ void receivemsg()
 }
 
  };
-
+        // Give ip as first and port number as second argument.
         int main(int argc, char *argv[]){
         if(argc < 3){
         cout<<"Error.....Give ip and port number as argument" ;
