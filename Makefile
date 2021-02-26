@@ -1,5 +1,5 @@
 all:
-        g++ Testserver.cpp -o se
+        g++ TestServer.cpp -o se
         g++ TestClient.cpp -o cl
 
  
