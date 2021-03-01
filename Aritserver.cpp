@@ -113,7 +113,7 @@ int main(int argc, char *argv[]){
         cout<<"\n"<<"Time Taken: "<<stop.tv_sec - start.tv_sec ;
 
 
-        if(  (stop.tv_sec - start.tv_sec) > 30 ){
+        if(  (stop.tv_sec - start.tv_sec) > 15 ){
 	cout<<"\nClient responded lately.....so terminating" ;
 	break ;
 	}
