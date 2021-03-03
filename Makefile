@@ -1,5 +1,5 @@
 all:
-        g++ TestServer.cpp -o se
-        g++ TestClient.cpp -o cl
+        g++ AritServer.cpp -o server
+        g++ AritClient.cpp -o client
 
  
